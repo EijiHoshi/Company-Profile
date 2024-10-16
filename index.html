@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profil Perusahaan - Sistem Pemesanan Tiket Transportasi</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.1/aos.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    <style>
+        body {
+            background-color: #ffffff;
+            font-family: 'Arial', sans-serif;
+        }
+        .navbar {
+            background-color: #09395a;
+        }
+        .navbar-brand, .nav-link {
+            color: #fff !important;
+        }
+        .hero {
+            background-image: url('https://wallpapers-clan.com/wp-content/uploads/2024/04/sakura-branches-blue-sky-desktop-wallpaper-preview.jpg');
+            background-size: cover;
+            height: 400px;
+            color: white;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            position: relative;
+        }
+        .hero::after {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: hsla(206, 100%, 33%, 0.39);
+        }
+        .hero h1 {
+            position: relative;
+            z-index: 1;
+            margin: 0;
+        }
+        .hero p {
+            position: absolute;
+            z-index: 1;
+            margin-top: 100px;
+        }
+        h2 {
+            color: #2c3e50;
+        }
+        .card {
+            border: 2px solid #3498db;
+            border-radius: 10px;
+        }
+        footer {
+            background-color: hsl(206, 100%, 33%);
+            color: #fff;
+        }
+    </style>
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-lg">
+        <a class="navbar-brand" href="#">Sakura Route</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#about">Tentang Kami</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#services">Layanan</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#testimonials">Testimoni</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#faq">FAQ</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#contact">Kontak</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="hero">
+        <h1>Selamat Datang di Sakura Route</h1>
+        <p>Sistem Pemesanan Tiket Transportasi Terpercaya</p>
+    </div>
+
+    <div class="container my-5" id="statistics" data-aos="fade-up">
+        <h2>Statistik Pengguna</h2>
+        <div class="row text-center">
+            <div class="col-12 col-md-4 mb-4" data-aos="zoom-in" data-aos-duration="1000">
+                <h3><span class="badge badge-primary">5000+</span></h3>
+                <p>Pengguna Terdaftar</p>
+            </div>
+            <div class="col-12 col-md-4 mb-4" data-aos="zoom-in" data-aos-delay="100" data-aos-duration="1000">
+                <h3><span class="badge badge-success">20,000+</span></h3>
+                <p>Tiket Terjual</p>
+            </div>
+            <div class="col-12 col-md-4 mb-4" data-aos="zoom-in" data-aos-delay="200" data-aos-duration="1000">
+                <h3><span class="badge badge-warning">150+</span></h3>
+                <p>Jadwal Perjalanan</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="container my-5" id="about" data-aos="fade-up">
+        <h2>Tentang Kami</h2>
+        <p class="animate__animated animate__fadeIn">Sakura Route adalah penyedia layanan pemesanan tiket transportasi yang menghubungkan pelanggan dengan berbagai moda transportasi. Kami berkomitmen untuk memberikan pengalaman pemesanan yang mudah dan cepat.</p>
+    </div>
+
+    <div class="container my-5" id="services" data-aos="fade-up">
+        <h2>Layanan Kami</h2>
+        <div class="row">
+            <div class="col-12 col-md-4 mb-4" data-aos="fade-up">
+                <div class="card animate__animated animate__bounceIn">
+                    <div class="card-body">
+                        <h5 class="card-title">Pemesanan Tiket Kereta</h5>
+                        <p class="card-text">Pemesanan tiket kereta dengan pilihan jadwal yang fleksibel dan harga yang kompetitif.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-4 mb-4" data-aos="fade-up" data-aos-delay="100">
+                <div class="card animate__animated animate__bounceIn">
+                    <div class="card-body">
+                        <h5 class="card-title">Pemesanan Tiket Pesawat</h5>
+                        <p class="card-text">Dapatkan tiket pesawat dengan harga terbaik dan proses pemesanan yang cepat.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-4 mb-4" data-aos="fade-up" data-aos-delay="200">
+                <div class="card animate__animated animate__bounceIn">
+                    <div class="card-body">
+                        <h5 class="card-title">Pemesanan Tiket Bus</h5>
+                        <p class="card-text">Tiket bus ke berbagai destinasi dengan kenyamanan yang terjamin.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container my-5" id="testimonials" data-aos="fade-up">
+        <h2>Testimoni Pelanggan</h2>
+        <div class="row">
+            <div class="col-12 col-md-6 mb-4" data-aos="fade-up">
+                <div class="card">
+                    <div class="card-body">
+                        <p class="card-text"><i class="fas fa-quote-left"></i> "Pengalaman yang luar biasa! Sangat mudah untuk memesan tiket." <br><strong>- Andi</strong></p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 mb-4" data-aos="fade-up" data-aos-delay="100">
+                <div class="card">
+                    <div class="card-body">
+                        <p class="card-text"><i class="fas fa-quote-left"></i> "Layanan pelanggan yang hebat dan cepat!" <br><strong>- Siti</strong></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container my-5" id="faq" data-aos="fade-up">
+        <h2>Pertanyaan yang Sering Diajukan</h2>
+        <div class="accordion" id="faqAccordion">
+            <div class="card">
+                <div class="card-header" id="faqHeadingOne">
+                    <h2 class="mb-0">
+                        <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#faqCollapseOne" aria-expanded="true" aria-controls="faqCollapseOne">
+                            Apa saja metode pembayaran yang diterima?
+                        </button>
+                    </h2>
+                </div>
+                <div id="faqCollapseOne" class="collapse show" aria-labelledby="faqHeadingOne" data-parent="#faqAccordion">
+                    <div class="card-body">
+                        Kami menerima berbagai metode pembayaran termasuk kartu kredit, transfer bank, dan dompet digital.
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-header" id="faqHeadingTwo">
+                    <h2 class="mb-0">
+                        <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#faqCollapseTwo" aria-expanded="false" aria-controls="faqCollapseTwo">
+                            Bagaimana cara membatalkan pemesanan?
+                        </button>
+                    </h2>
+                </div>
+                <div id="faqCollapseTwo" class="collapse" aria-labelledby="faqHeadingTwo" data-parent="#faqAccordion">
+                    <div class="card-body">
+                        Anda dapat membatalkan pemesanan melalui akun Anda atau menghubungi layanan pelanggan kami.
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container my-5" id="contact" data-aos="fade-up">
+        <h2>Kontak Kami</h2>
+        <form>
+            <div class="form-group">
+                <label for="name">Nama</label>
+                <input type="text" class="form-control" id="name" placeholder="Masukkan nama Anda" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" class="form-control" id="email" placeholder="Masukkan email Anda" required>
+            </div>
+            <div class="form-group">
+                <label for="message">Pesan</label>
+                <textarea class="form-control" id="message" rows="3" placeholder="Tulis pesan Anda" required></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Kirim</button>
+        </form>
+    </div>
+
+    <footer class="text-center py-4">
+        <p>&copy; 2024 Sakura Route. Semua Hak Dilindungi.</p>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.1/aos.js"></script>
+    <script src="https://unpkg.com/scrollreveal/dist/scrollreveal.min.js"></script>
+    <script>
+        AOS.init();
+        
+        // Inisialisasi ScrollReveal
+        ScrollReveal().reveal('.card', { 
+            duration: 1000,
+            distance: '50px',
+            origin: 'bottom',
+            interval: 200 // Menambahkan interval untuk setiap card
+        });
+    </script>
+</body>
+</html>
